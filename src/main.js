@@ -72,7 +72,7 @@ function updateTexture(imageUrl) {
   textureLoader.load(imageUrl, function(texture) {
       // Assuming you have direct access to a mesh or material
       // For example, if you have a mesh named 'targetMesh'
-      const targetMesh = scene.getObjectByName('T_Shirt'); // Adjust with your actual mesh name
+      const targetMesh = scene.getObjectByName('Shirt'); // Adjust with your actual mesh name
       if (targetMesh) {
           targetMesh.material.map = texture;
           targetMesh.material.needsUpdate = true;
