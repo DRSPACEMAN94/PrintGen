@@ -52,7 +52,7 @@ function animate(time) {
 }
 
 // Initialize WebSocket connection
-const socket = new WebSocket('ws://localhost:3000'); // Use your server's address
+const socket = new WebSocket('wss://a39e-2603-8000-d300-d1e-c4f5-a234-124-508d.ngrok-free.app'); // Use your server's address
 
 socket.onopen = function(event) {
     console.log("Connected to WebSocket server");
