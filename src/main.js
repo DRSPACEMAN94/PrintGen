@@ -10,7 +10,7 @@ app.load('https://prod.spline.design/OrB3ZM-wUzT0afzg/scene.splinecode').then(()
 });
 
 // Establish WebSocket connection outside the load promise
-const socket = new WebSocket('wss://a39e-2603-8000-d300-d1e-c4f5-a234-124-508d.ngrok-free.app'); // Replace with your actual WebSocket server URL
+const socket = new WebSocket('wss://eed5-2603-8000-d300-d1e-4d49-36e0-8617-c66f.ngrok-free.app'); // Replace with your actual WebSocket server URL
 
 socket.onopen = function(event) {
     console.log("Connected to WebSocket server");
